@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello, my name is Juan, a software engineer based in Hanoi, Vietnam. Currently my professional is focused on .NET Framework using various technologies such as ASP.NET, ASP.NET MVC, WebServices with WEB-API/WCF, C#, JavaScript, HTML/CSS.
 
 ### More Information
 
