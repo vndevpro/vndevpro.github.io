@@ -20,3 +20,5 @@ Một số cú pháp cơ bản của markdown
 # Tạo blockquote
 
 ![_config.yml]({{ site.baseurl }}/images/posts/markdown-highlight.png)
+
+For detail, [go there](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
