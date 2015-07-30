@@ -28,5 +28,5 @@ to the dll under this folder. Some other dependencies will be referenced by usin
 With these ways of managing dependencies, upgrade to a new version of any library is hard
 (both internal & external), because dependency's version number is specified in target project.
 
-{{ site.baseurl }}/images/posts/project-reference-dll-with-version.png
+![_config.yml]({{ site.baseurl }}/images/posts/project-reference-dll-with-version.png)
 
