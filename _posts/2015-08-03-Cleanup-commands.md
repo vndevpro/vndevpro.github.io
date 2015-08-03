@@ -12,3 +12,7 @@ D:\Build>for /d /r . %d in (bin\release) do @if exist "%d" rd /s/q "%d"
 ```
 
 Tham số `bin\release` : pattern của thư mục cần xóa
+
+
+## References
+[A question on SO](http://stackoverflow.com/questions/521382/command-line-tool-to-delete-folder-with-a-specified-name-recursively-in-windows)
