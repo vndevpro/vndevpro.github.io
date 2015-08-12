@@ -4,6 +4,9 @@ title: Tại sao nên sử dụng CDN?
 modified: 20150806
 ---
 
+Tăng tốc độ load của page, giảm tải & băng thông cho server, giảm số concurrent reuqests đến server
+là một số benifits của việc dùng CDN cho script, css, image...
+
 ##Lợi ích khi sử dụng CDN
 
 - Tăng tốc độ load của page, vì CDN được sử dụng bởi nhiều website nên có thể browser đã cache file
