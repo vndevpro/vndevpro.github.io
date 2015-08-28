@@ -1,7 +1,6 @@
 ---
 layout: post
-title: A jump to Azure: easy deployment and ingration.
-modified: 20150827
+title: A jump to Azure: easy deployment and ingration
 ---
 
 Microsoft Azure is a clould-platform which enables us to host not only web-application,
