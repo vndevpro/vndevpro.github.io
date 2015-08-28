@@ -3,6 +3,7 @@ layout: post
 title: A jump to Azure: easy deployment and ingration
 ---
 
+
 Microsoft Azure is a clould-platform which enables us to host not only web-application,
 but also for long-running tasks such as data processing background task, periodic backup task...
 
