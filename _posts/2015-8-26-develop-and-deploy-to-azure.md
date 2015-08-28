@@ -1,10 +1,10 @@
 ---
 layout: post
-title: A jump to Azure: easy deployment and ingration
+title: A jump to Azure: easy deployment and integration
 ---
 
 
-Microsoft Azure is a clould-platform which enables us to host not only web-application,
+Microsoft Azure is a cloud-platform which enables us to host not only web-application,
 but also for long-running tasks such as data processing background task, periodic backup task...
 
 If you are not having an account on Azure, try it today and I am sure that 
@@ -15,7 +15,7 @@ what service you want.
 ## Traditional hosting deployment
 
 Many of us know and use traditional hosting service including shared-host, dedicated server...
-but the deployment process is complex. Let's imagin this process
+but the deployment process is complex. Let's imaging this process
 
 1. Develop application feature and doing tests to be sure it functions as expect
 2. Build the application in release mode, create scripts that perform data upgrading
@@ -29,7 +29,7 @@ If we delay deployment, it may be risky also because the issue is not detect rig
 
 ## Azure deployment
 
-Let's imagin we have below development process
+Let's imaging we have below development process
 
 1. Source code is managed by a cloud service (Github, BitBucket, VisualStudio Online...)
 2. A commit will be done when a task is finished and tested on developer's local environment
