@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Hello, thank you for visiting my about page.
+Hi and thank you for visiting my about page.
 
 My name is Juan, a software engineer based in Hanoi, Vietnam. I worked with PHP, Java in the past.
 Currently my professional is targeting on .NET Framework using various technologies & languages
