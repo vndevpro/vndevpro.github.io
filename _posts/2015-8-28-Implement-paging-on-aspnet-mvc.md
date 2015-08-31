@@ -26,7 +26,7 @@ Go to https://www.nuget.org/packages/PagedList.Mvc/ to install the package into 
 
 ![_config.yml]({{ site.baseurl }}/images/posts/ionline/list-message-action.png)
 
-The main part is bordered in green, it does a test if the client supports ajax only a partial view
+The main part is bordered in green box, it does a test to check if the client supports ajax then only a partial view
 will be returned or the whole view if not.
 
 ### The views

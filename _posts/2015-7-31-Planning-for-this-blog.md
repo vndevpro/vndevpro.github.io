@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Features for this blog
+title: Components on for this blog
 ---
 
-This blog was forked from JekyllNow with basic features. I think some other feature should be added
+This blog was forked from JekyllNow with basic features. Some other features should be added
 to make the site richer in term of communication, content formatting... And below is some of them
 that I am thinking of.
 
