@@ -18,11 +18,11 @@ With reCaptcha also, I found some useful libraries there [recaptcha-net][3], [re
 
 ## How to use RecaptchaNet
 
+I choose this because it does not require any dependency (as version 1.3).
+
 To have a detail guide from the creator, please go to there [documentation site][7]
 
 
-
-I choose this because it does not require any dependency (version 1.3).
 
 
 ## References
