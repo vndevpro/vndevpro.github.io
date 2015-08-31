@@ -24,6 +24,7 @@ Simply take a github url and go to [rawgit.com][3] and paste to its input. You g
 Rawgit uses MaxCDN behind but it [does not guarantee][4] to be 100% up ;)
 
 ## References
+1. https://rawgit.com/faq
 
 [1]: https://raw.githubusercontent.com/netvietdev/cssbox/dict/v1.0/cssbox.min.css
 [2]: https://rawgit.com/faq
