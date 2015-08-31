@@ -5,7 +5,7 @@ title: EntityFramework - migrate to latest version on Azure and local database f
 
 When working with EF Code First approach, we must update system database after modified model entities
 and of course, we must create a migration (or many migrations, depending on how are your changes).
-Later we can update the database manually or automatically (on the first read/write to the database)
+Later we can update the database manually or automatically (on the first read/write to the database).
 
 ## Upgrade a local database
 
