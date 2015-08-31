@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EntityFramework: migrate to latest version on Azure and local database from code
+title: EntityFramework - migrate to latest version on Azure and local database from code
 ---
 
 When working with EF Code First approach, we must update system database after modified model entities
