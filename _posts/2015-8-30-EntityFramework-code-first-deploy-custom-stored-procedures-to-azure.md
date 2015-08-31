@@ -15,6 +15,6 @@ to make this works.
 
 ## References
 
-[1]: ![_config.yml]({{ site.baseurl }}/2015-8-30-EntityFramework-code-first-automatic-migration-azure.md)
+[1]: {% post_url 2015-8-30-EntityFramework-code-first-automatic-migration-azure %}
 [2]: https://github.com/juanonsoftware/ionline
 [3]: https://github.com/StackExchange/dapper-dot-net
