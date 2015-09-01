@@ -5,10 +5,10 @@ title: EntityFramework - deploy custom stored procedures to Azure
 
 Continuing on my [previous post regarding EF-Azure][1] for project [IOnline][2], I need to adapt
 this requirement to: (1) Not using EF to count number of messages (total messages in the system and by categories)
-and (2) Use [Dapper][3] for the data access layer. So I will have to create some stored procedures
+and (2) Use [Dapper][3] for the data access layer as a replacement. So I will have to create some stored procedures
 to make this works.
 
-1. ## Create stored procedures and references to Dapper
+## 1. Create stored procedures and references to Dapper
 
 Below is the SP needs to be created
 
@@ -18,7 +18,7 @@ The application will function after implemented a new service using Dapper.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/ionline/count-messages-with-dapper.png)
 
-2. ## Enable migration
+## 2. Enable migration
 
 If the system runs on another database or Azure platform it doesn't work unless the script was deployed manually.
 Again, it should be deployed automatically with continuous integration enabled. So a new migration is needed.
