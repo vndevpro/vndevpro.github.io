@@ -32,6 +32,6 @@ An app setting key and a connection string have been set, we can see them loaded
 
 ## References
 
-1. [Windows Azure Web Sites: How Application Strings and Connection Strings Work][2]
+1. [Windows Azure Web Sites: How Application Strings and Connection Strings Work][1]
 
 [1]: http://azure.microsoft.com/en-us/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/
