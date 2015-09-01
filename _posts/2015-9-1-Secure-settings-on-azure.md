@@ -28,7 +28,7 @@ An app setting key and a connection string have been set, we can see them loaded
 
 ## 3. Conclusion
 
-*Do not put production settings on Web.config, it has to be configured on Azure portal*
+*Do not put production settings (often contains sensitive information) on Web.config, it has to be configured on Azure portal*
 
 ## References
 

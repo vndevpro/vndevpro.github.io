@@ -18,7 +18,7 @@ take a look on below screen:
 
 ![_config.yml]({{ site.baseurl }}/images/posts/azure/redis-change-access.png)
 
-OK, it's ready to be used, so move to the second step.
+When this step is done, it's ready to be used, so move to the second step.
 
 ## 2. Use Redis Cache on Azure
 
@@ -30,7 +30,7 @@ Let's take a look on below screen, few steps are done in this order
 
 ![_config.yml]({{ site.baseurl }}/images/posts/azure/mvc-redis.png)
 
-*When having an error like this, please check the port number again if it is blocked on your network*
+**When having an error like this, please check the port number again if it is blocked on your network**
 
 ![_config.yml]({{ site.baseurl }}/images/posts/azure/redis-connection-port-not-allowed.png)
 
