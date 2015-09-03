@@ -12,12 +12,12 @@ Reading more on some articles from active guys [Provider is not a pattern][1], [
 
 ## 1. A simple Cache Service interface
 
-```cs
+
         T Get<T>(string key) where T : class;
 
         bool Set<T>(string key, T value) where T : class;
         bool Set<T>(string key, T value, TimeSpan expiry) where T : class;
-```
+
 
 ## 2. An ImMemoryCache implementation
 
