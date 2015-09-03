@@ -28,7 +28,7 @@ This implementor uses the system MemoryCache, it is an Adapter to MemoryCache
 This service uses [Redis Client][5] to perform connection to Redis server and the serialization methods
 from [SerializationMaster][4] to serialize/deserialize string to object of any type.
 
-![_config.yml]({{ site.baseurl }}/images/redis/redis-cache.jpg)
+![_config.yml]({{ site.baseurl }}/posts/images/redis/redis-cache.jpg)
 
 [1]: http://blog.ploeh.dk/2011/04/27/Providerisnotapattern/
 [2]: http://candordeveloper.com/2012/06/26/provider-model-is-a-solid-pattern/
