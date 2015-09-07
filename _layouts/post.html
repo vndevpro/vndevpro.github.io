@@ -31,8 +31,10 @@ layout: default
 {% endif %}
 
 <article class="post">
-  
+
+  {% if category_content != '' or tags_content != '' %}
   <p id="post-meta">Posted {{ category_content }} with {{ tags_content }}</p>
+  {% endif %}
   
   <h1>{{ page.title }}</h1>
 
