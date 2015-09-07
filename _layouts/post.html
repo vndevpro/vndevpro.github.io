@@ -5,11 +5,7 @@ layout: default
 {% assign post = page %}
 
 {% if post.category %}
-	{% for site_category in site.data.categories %}
-		{% if site_category.slug == post.category %}
-			{% assign category = site_category %}
-		{% endif %}
-	{% endfor %}
+	{% assign category = site.data.categories[post.category] %}
 	{% if category %}
 		{% capture category_content %} in <span class="label" style="background-color:{{ category.color }}"><a href="/blog/category/{{ category }}/">{{ category.name }}</a></span>{% endcapture %}
 	{% endif %}
