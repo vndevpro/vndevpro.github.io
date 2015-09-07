@@ -7,7 +7,7 @@ layout: default
 {% if post.category %}
 	{% assign post_category = site.data.categories[post.category] %}
 	{% if post_category %}
-		{% capture category_content %} in <span class="label" style="background-color:{{ post_category.color }}"><a href="/blog/category/{{ post_category }}/">{{ post_category.name }}</a></span>{% endcapture %}
+		{% capture category_content %} in <a href="/blog/category/{{ post_category }}/">{{ post_category.name }}</a>{% endcapture %}
 	{% endif %}
 {% else %}
 	{% assign category_content = '' %}
