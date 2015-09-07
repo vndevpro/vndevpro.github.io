@@ -1,8 +1,8 @@
-github-pages
+github-pages:
   name: GitHub Pages
 
-github
+github:
   name: GitHub
 
-jekyll
+jekyll:
   name: Jekyll
