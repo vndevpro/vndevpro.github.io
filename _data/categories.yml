@@ -1,12 +1,12 @@
-- slug: projects:
+- slug: projects
   name: Projects
   color: '#3498db'
 
-- slug: c#:
+- slug: c#
   name: C#
   color: '#3498db'
 
-- slug: blog:
+- slug: blog
   name: Blog
   color: '#3498db'
   
