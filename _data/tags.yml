@@ -1,8 +1,8 @@
-- slug: github-pages
+github-pages
   name: GitHub Pages
 
-- slug: github
+github
   name: GitHub
 
-- slug: jekyll
+jekyll
   name: Jekyll
