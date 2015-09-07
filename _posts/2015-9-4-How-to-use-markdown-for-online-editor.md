@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use Markdown on browser
+title: How to use Markdown on browser (WYSIWYG preview)
 ---
 
 The WYSIWYG is very common and many websites support this feature. It often encodes user input into HTML format.
