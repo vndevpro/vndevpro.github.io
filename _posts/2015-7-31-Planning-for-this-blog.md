@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Components on for this blog
+category: blog
+tags: [github, jekyll]
 ---
 
 This blog was forked from JekyllNow with basic features. Some other features should be added
