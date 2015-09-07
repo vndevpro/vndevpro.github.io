@@ -1,9 +1,12 @@
 projects:
   name: Projects
+  color: '#3498db'
 
 c#:
   name: C#
+  color: '#3498db'
 
 blog:
   name: Blog
+  color: '#3498db'
   

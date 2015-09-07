@@ -5,9 +5,9 @@ layout: default
 {% assign post = page %}
 
 {% if post.category %}
-	{% assign category = site.data.categories[post.category] %}
-	{% if category %}
-		{% capture category_content %} in <span class="label" style="background-color:{{ category.color }}"><a href="/blog/category/{{ category }}/">{{ category.name }}</a></span>{% endcapture %}
+	{% assign post_category = site.data.categories[post.category] %}
+	{% if post_category %}
+		{% capture category_content %} in <span class="label" style="background-color:{{ post_category.color }}"><a href="/blog/category/{{ post_category }}/">{{ category.name }}</a></span>{% endcapture %}
 	{% endif %}
 {% else %}
 	{% assign category_content = '' %}
@@ -28,7 +28,7 @@ layout: default
 
 <article class="post">
   
-  <p id="post-meta">Posted in {{ category_content }} with {{ tags_content }}</p>
+  <p id="post-meta">Posted {{ category_content }} with {{ tags_content }}</p>
   
   <h1>{{ page.title }}</h1>
 
