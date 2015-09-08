@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Active HTTPS on Azure Website
+title: Activate HTTPS on Azure Website
 ---
 
 My story is that the website deployed on Azure needs to have Disqus function... It should be trivial
