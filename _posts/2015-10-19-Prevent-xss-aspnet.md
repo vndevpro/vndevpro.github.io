@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prevent XSS in ASP.NET
+title: Ngăn chặn XSS trong ASP.NET
 modified: 20150806
 ---
 
@@ -54,6 +54,10 @@ Nhưng trên các trình duyệt khác thì không. Hơn nữa ứng dụng phí
 
 ## Xử lý trên server
 
+### Solution 1
+
+Việc xử lý thực hiện trên từng trường dữ liệu có nguy cơ bị XSS
+
 1. Cài Package [AntiXSS][5] vào ứng dụng
 
 2. Gọi function xử lý trường nhập dữ liệu chứa mã HTML, các thẻ HTML không an toàn sẽ bị loại bỏ. [(xem thay đổi)][6]
@@ -63,6 +67,18 @@ var safeHtml = Sanitizer.GetSafeHtmlFragment(item.Message);
 ```
 
 ![_config.yml]({{ site.baseurl }}/images/posts/xss/safe-html.png)
+
+### Solution 2
+
+Xử lý một cách tự động thông qua một ModelBinder
+
+1. Cài package [RabbitWebMvc][8] vào ứng dụng
+
+2. Sử dụng `DefaultBinder` là `SafeHtmlModelBinder`
+
+```
+ModelBinders.Binders.DefaultBinder = new SafeHtmlModelBinder();
+```
 
 ## References
 
@@ -77,3 +93,4 @@ var safeHtml = Sanitizer.GetSafeHtmlFragment(item.Message);
 [5]: https://www.nuget.org/packages/AntiXss/
 [6]: https://github.com/vndevpro/mvc-xss/commit/170d81324b46e47ca3d67852060d40396716ebf0?diff=unified
 [7]: https://github.com/vndevpro/mvc-xss/commit/fa82bf31ddcc8c9fd4d12d7d026177f6a1fe759e
+[8]: https://www.nuget.org/packages/RabbitWebMvc/
